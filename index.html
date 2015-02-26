@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Electronics</title>
+	<style>
+		body {
+			background-color: #111;
+			color: #0b3;
+			font-family: monospace;
+			line-height: 1.4em;
+		}
+
+		input {
+			border: 1px solid #0b3;
+			color: #0f0;
+			background-color: transparent;
+		}
+
+		strong {
+			color: #0f0;
+		}
+	</style>
+</head>
+<body>
+	<h1>Lectronics</h1>
+	<div id="app"></div>
+
+	<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
+	<script>
+		System.transpiler = '6to5';
+		System.import('src/main');
+	</script>
+
+</body>
+</html>
